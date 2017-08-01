@@ -1,4 +1,4 @@
-# cpcjs
+# CPCJS : Le BASIC Amstrad pour Javascript
 Portage du BASIC Amstrad pour Javascript.
 (c)2017 Baptiste Bideaux
 baptiste.bideaux@yahoo.fr
