@@ -3,48 +3,6 @@ Portage du BASIC Amstrad pour Javascript.
 (c)2017 Baptiste Bideaux
 baptiste.bideaux@yahoo.fr
 
-Liste des commandes BASIC supportées
+<p>CPCJS est né lorsque j'ai retrouvé par hasard, un vieux magazine Amstar de 1987 dans lequel était paru un listing de jeu en BASIC. Il faut savoir qu'à l'époque, un programme se tapait du bout des doigts, pendant plusieurs jours. Il n'y avait pas de CD-ROM fourni, ou de lien pour télécharger le jeu. C'est un peu comme-ci aujourd'hui, pour avoir Candy Crush sur votre mobile, vous étiez obligé de saisir tout son programme avant d'y jouer.</p>
 
-version 1.0.0.a :
----------
-BORDER
-CLG
-CLS
-COS
-DATA
-DIM
-DRAW
-DRAWR
-GOSUB
-GOTO
-GRAPHICS_PAPER
-GRAPHICS_PEN
-INKEY
-INKEY$
-INK
-INPUT
-LOCATE
-LOWER
-MODE
-MOVE
-MOVER
-ORIGIN
-PAPER
-PEN
-PLOT
-PRINT
-PRINT$
-RANDOMIZE_TIME
-READ
-RESTORE
-RND
-SIN
-SPACE$
-STRING$
-SYMBOL
-SYMBOL_AFTER
-TAG
-TAGOFF
-TAN
-UPPER
-USING
+<p>CPCJS est né de ce souvenir. Ce plaisir de finir la dernière ligne du listing, et du moment de récolter le fruit de son travail. RUN !
