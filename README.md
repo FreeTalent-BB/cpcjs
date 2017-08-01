@@ -1,2 +1,46 @@
 # cpcjs
 Portage du BASIC Amstrad pour Javascript.
+(c)2017 Baptiste Bideaux
+baptiste.bideaux@yahoo.fr
+
+Liste des commandes BASIC supportées
+
+version 1.0.0.a :
+---------
+BORDER
+CLG
+CLS
+COS
+DATA
+DRAW
+DRAWR
+GOSUB
+GOTO
+GRAPHIC_PAPER
+GRAPHIC_PEN
+INKEY
+INKEY$
+INK
+INPUT
+LOCATE
+LOWER
+MODE
+MOVE
+MOVER
+ORIGIN
+PAPER
+PEN
+PLOT
+PRINT
+PRINT$
+RANDOMIZE_TIME
+READ
+RESTORE
+RND
+SIN
+SPACE$
+STRING$
+SYMBOL
+TAG
+TAGOFFTAN
+UPPER
