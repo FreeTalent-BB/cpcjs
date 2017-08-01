@@ -48,3 +48,31 @@ TAGOFF
 TAN
 UPPER
 USING
+
+Exemple d'utilisation :
+---------
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CPCJS</title>
+	<style>
+	body{
+		margin:0px;
+		padding:0px;
+		overflow:hidden;
+	}
+	</style>
+	<script type="text/javascript" src="build/cpcjs-1.0.0a.min.js"></script>
+	<script type="text/javascript" src="programs/my_programe.js"></script>
+	
+	<script>
+		function start(){
+			CPCJS.init();
+			CPCJS.start();
+		}
+	</script>
+</head>
+<body onload="start();">
+</body>
+
