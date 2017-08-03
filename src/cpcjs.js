@@ -1,5 +1,5 @@
 var CPCJS = {
-	VERSION: '1.0.0a',
+	VERSION: '1.0.1a',
 
 	_initialized: false,
 	_canvasBuffer: null,
@@ -13,6 +13,7 @@ var CPCJS = {
 	_duration: -1,
 	_fps: 1,
 	_fpsTM: -1,
+	_memdata: [],
 	_requestAnimationFrame: function(_callback){
 		if (window.requestAnimationFrame){
 			return window.requestAnimationFrame(_callback);
@@ -97,6 +98,9 @@ var CPCJS = {
 	// CPCJS.start()
 	start: function(){
 		if(CPCJS._initialized === true){
+			for(_di = 0; _di < 64000; _di++){
+				CPCJS._memdata.push(0);
+			}
 			CPCJS.Program.run();
 			CPCJS._animationTime = Date.now();
 			CPCJS._requestID = CPCJS._requestAnimationFrame(CPCJS._animate);
